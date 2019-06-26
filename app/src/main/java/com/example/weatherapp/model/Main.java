@@ -59,4 +59,9 @@ public class Main {
     public void setTemp_max(float temp_max) {
         this.temp_max = temp_max;
     }
+
+    public static String getTempWithSign(float temperature) {
+        int temp = Math.round(temperature);
+        return temperature > 0 ? "+ " + String.valueOf(temp) : String.valueOf(temp);
+    }
 }

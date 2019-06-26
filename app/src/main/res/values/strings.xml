@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">WeatherApp</string>
+    <string name="temperature">%s &#176;C</string>
+    <string name="cloudy">Cloudy %s %%</string>
+    <string name="wind_speed">Wind Speed %d m/s</string>
+    <string name="humidity">Humidity %d %%</string>
+    <string name="pressure">Pressure %d mm Hg</string>
+
+    <string name="wind_north">North</string>
+    <string name="wind_north_east">North-East</string>
+    <string name="wind_east">East</string>
+    <string name="wind_south_east">South-East</string>
+    <string name="wind_south">South</string>
+    <string name="wind_south_west">South-West</string>
+    <string name="wind_west">West</string>
+    <string name="wind_north_west">North-West</string>
 </resources>
